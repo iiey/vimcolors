@@ -27,6 +27,7 @@ if !has("gui_running")
 end
 
 hi clear
+hi clear CursorLineNr
 syntax reset
 
 let g:colors_name = "tomorrow-night"
